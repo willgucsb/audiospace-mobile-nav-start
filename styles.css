@@ -15,6 +15,59 @@ nav ul, nav ol {
 
 /********* End CSS Reset *********/
 
+
+/******* Nav Styles *********/
+
+#navigation {
+	position: relative;
+}
+
+#mobilenav {
+	background:#f69331;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+#mobilenav h2 {
+	text-align: right;
+	line-height: 50px;
+	color: #ebebeb;
+	font-size: 36px;
+}
+
+#mainnav {
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	right: 0%;
+	border-top: 1px solid #ca6a0c;
+}
+
+#mainnav ul {
+	background: #f69331;
+}
+
+#mainnav ul li a {
+	display:block;
+	background:#f69331;
+	color:#ebebeb;
+	font-weight:700;
+	font-size:36px;
+	line-height:50px;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:right;
+	padding-right: 20px;
+	width:180px;
+	border-bottom: 1px solid #ca6a0c;
+}
+
+#mainnav ul li a:hover {
+	background:#40606f;
+}
+
+/******* End Nav Styles *********/
+
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight:300;
